@@ -1,0 +1,9 @@
+tr, th, td, thead, table {
+    border: 1px solid black;
+}
+table {
+    width: 250px;
+}
+h1 {
+    font-size: 24px;
+}

@@ -1,0 +1,15 @@
+table, tr, th, td {
+
+    border: 1px solid black ;
+}
+
+table {
+    width: 300px; /* mas ancho*/
+}
+
+td {
+    background-color: blue;
+}
+th {
+    background-color: blueviolet;
+}

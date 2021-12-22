@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/ejercicio-1.css" type="text/css">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    
+    <h1> Datos del comprador</h1>
+
+    <form class ="comprador">
+        <div class="nombre">
+            <label for="nombre">Nombre</label>
+            <input class= "cuadro"
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Escribe tu nombre completo"
+            />
+        </div>
+        <div class="correo">
+            <label for="correo">Email</label>
+            <input class="cuadro" 
+            type="email"
+            id="correo"
+            name="correo"
+            placeholder="ejemplo@um.es"/>
+            
+        </div>
+
+        <div class="telefono">
+            <label for="telefono">Teléfono</label>
+            <input class="cuadro"
+            type="number"
+            id="telefono"
+            name="telefono"
+            placeholder="Ej. +3466889999"/>
+
+        </div>
+        <div>
+            <label for="pais">País</label>
+            <input class="cuadro"
+            type="text"
+            id="pais"
+            name="pais"
+            />
+
+        </div>
+    </form>
+
+    <h2>Datos de tarjeta de Crédito o débito</h2>
+    <form>
+        <div class="numero">
+            <label 
+            for="numero">Numero</label>
+            <input class="cuadro"
+            id= "numero" 
+            type="number" 
+            name="numero"
+            placeholder=" Ej. 5555-4444-3333-2222" 
+            /> 
+
+        </div>
+        
+        <div class="nombre">
+            <label for="nombre">Nombre</label>
+            <input class= "cuadro"
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Nombre que figura en la tarjeta"/>
+        </div>
+    </form>
+
+    <p>------------------------------</p>
+    <div>
+        <input type="button" value="Confiirmar pedido" />
+    </div>
+
+</body>
+</html>

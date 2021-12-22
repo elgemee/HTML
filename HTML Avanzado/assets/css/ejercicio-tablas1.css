@@ -1,0 +1,41 @@
+table, tr, th, td {
+
+    border: 1px solid black ;
+    
+    
+}
+table {
+    width: 600px;
+
+
+}
+h1 {
+    text-align: center;
+}
+span {
+    color: red;
+}
+
+body {
+    background-color: turquoise;
+}
+
+.cursiva {
+    font-style: italic;
+}
+.naranja {
+    background-color: orange;
+}
+.negro {
+    background-color: black;
+}
+.verde {
+    background-color: chartreuse;
+}
+.negrita {
+    color: black;
+    font-weight:bolder;
+}
+.amarillo {
+    color: yellow;
+}
